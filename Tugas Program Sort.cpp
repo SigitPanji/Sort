@@ -1,6 +1,11 @@
+//agneta zhintia devi (1717051024)
+//yulita sari (1717051072)
+//selviana DDP (1717051074)
+//sigit panji p (1757051002)
+
 #include <iostream>
 using namespace std;
-void buble()
+void bubble()
 {
 int i, n, temp, data[10];
 while(i<=7) {
@@ -72,7 +77,7 @@ int main()
 	system("CLS");
 	switch(option)
 	{
-		case 1 : buble();
+		case 1 : bubble();
 		break;
 		case 2 : selection();
 		break;
